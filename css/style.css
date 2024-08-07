@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #161616;
+}
+#Apresentacao {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-color: #161616;
+  justify-content: center;
+}
+.boasvindas {
+  max-width: 750px;
+  padding: 100px 150px 100px 0;
+}
+.boasvindas h1 {
+  color: #5941cf;
+  font-size: 70px;
+}
+.boasvindas p {
+  color: #d9d9d9;
+  font-size: 40px;
+  min-width: 917px;
+}
+#Integrantes{
+    background: #E4E4E4;
+    margin: 15px;
+}
+.linha{
+    background: #fff;
+    width: 100%;
+    height: 10px;
+
+}
+.pessoa{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+#Integrantes img{
+    border-radius: 100%;
+}
+#Integrantes h2{
+    font-size: 70px;
+}
+#Integrantes p{
+    font-size: 55px;
+    font-weight: 400;
+}
